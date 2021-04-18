@@ -1,5 +1,4 @@
 body{
-    width: 1600px;
     background: var(--white-main-and-other);
 
     font-family: 'Roboto', sans-serif;
@@ -52,8 +51,8 @@ ul {
     color: var(--headers-font-color);
 }
 .page-header{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #ECECEC;
 }
 .page-header .container{
@@ -88,8 +87,6 @@ ul {
   }
 .nav-list a{
     display: inline-block;
-    padding-top: 15px;
-    padding-bottom: 15px;
 
     font-weight: 500;
     line-height: 1.14;
@@ -176,7 +173,9 @@ ul {
 .team-sect{
     background: #F5F4FA;
 }
-
+.works-section{
+    padding-top: 0;
+}
 .jl-items{
     flex-basis: calc((100% - 3 * 30px) / 3);
 }
@@ -200,7 +199,6 @@ ul {
     background: var(--white-main-and-other);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 94px;
 }
 .team-block{
     margin-bottom: 30px;
